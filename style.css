@@ -1,0 +1,91 @@
+table.signeture-box {
+    box-shadow: 3px 4px 12px rgb(222 208 208 / 50%), -3px -4px 11px rgb(222 208 208 / 50%);
+    padding: 27px;
+    border-radius: 5px;
+}
+
+html,body {
+    height: 100%;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul li a{
+    text-decoration: none;
+    color:#000;
+}
+.contact-details ul li {
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.rel-pos {
+    position: relative;
+}
+
+.icon-box {
+    position: absolute;
+    right: 0;
+    background: linear-gradient(45deg, orange, magenta);
+    bottom: -29px;
+}
+
+.icon-box ul li {
+    display: inline-block;
+    padding: 16px 20px;
+    border-right: 1px solid cornsilk;
+}
+
+.icon-box ul li a {
+    color: #fff;
+}
+
+.contact-details ul li a {
+    margin-left: 6px;
+}
+/* .contact-details ul li:before {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: orangered;
+    content: '';
+    border-radius: 50%;
+}
+
+.contact-details ul li:after {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: papayawhip;
+    content: '';
+    border-radius: 50%;
+    left: 2px;
+    top: 3px;
+} */
+
+.contact-details {
+    margin-top: 20px;
+}
+
+a.image img {
+    border-radius: 76px 20px 70px 66px;
+    padding: 11px;
+    border: 2px solid orangered;
+    display: block;
+    margin-right: 17px;
+}
+.author-name h3 {
+    margin-bottom: 3px;
+    font-size: 23px;
+    margin-top: 4px;
+}
